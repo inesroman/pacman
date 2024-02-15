@@ -3,7 +3,7 @@ import random
 
 class Ghost:
 
-    # Constructor of Ghost class
+    # Constructor of Ghost class:s
     def __init__(self, x, y, colour, speed_x, speed_y):
         # initialisation of private class variables:
         self.__x = x                # initial x-coordinate
