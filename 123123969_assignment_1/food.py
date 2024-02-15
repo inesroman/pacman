@@ -3,7 +3,7 @@ import random
 
 class Food:
 
-    # Constructor of Food class
+    # Constructor of Food class:
     def __init__(self, width, height, colour):
         # initialisation of private class variables:
         self.__height = height    # height of the food item 
