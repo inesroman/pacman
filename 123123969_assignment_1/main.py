@@ -39,7 +39,7 @@ FOOD_HEIGHT = 10
 FOOD_WIDTH = 10
 # -- instantiate Food Class
 food = Food(FOOD_WIDTH, FOOD_HEIGHT, FOOD_COLOUR)
-# -- set food coordinates before drawing
+# -- randomly allocate food before drawing
 food.relocate(DISPLAY_WIDTH, DISPLAY_HEIGHT)
 
 # --------------------------------------   GAME LOOP   ---------------------------------------
