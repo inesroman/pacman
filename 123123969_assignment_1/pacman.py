@@ -2,7 +2,7 @@ import pygame
 
 class Pacman:
 
-    # Constructor of Pacman class
+    # Constructor of Pacman class:
     def __init__(self, x, y, speed_x, speed_y):
         # initialisation of private class variables:
         self.__colour = [255, 255, 0]  # Yellow color for Pacman
